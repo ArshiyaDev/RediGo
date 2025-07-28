@@ -1,16 +1,19 @@
 # RediGo 🔴🐹
 
+> 🚧 **Work in Progress**  
+> This project is still under active development. Not all Redis features are implemented yet. Expect bugs, missing commands, and rough edges!
+
 A minimal Redis clone written in Go — built from scratch for learning, hacking, and fun.
 
 Redigo is an in-memory key-value store server that mimics some core features of Redis, including basic commands, concurrency safety, and TCP communication.
 
 ---
 
-## 🚀 Features
+## 🚀 Features (Partial)
 
 - 🧠 In-memory key-value store
 - 📡 TCP server with custom command parsing
-- ✅ Supports `SET`, `GET`, `DEL`
+- ✅ Supports `SET`, `GET`, `DEL` , ...
 - 🧵 Thread-safe with `sync.RWMutex`
 - ⚙️ Modular, testable Go project structure
 - 🎮 Optional TUI client using `tview` (coming soon)
